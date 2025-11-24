@@ -1,20 +1,94 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Muneeb Khan - Portfolio Website
 
-# Run and deploy your AI Studio app
+A modern, animated portfolio website showcasing full-stack development skills and projects.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1dXWRUJ9O8j6DK0Pc94iloSSbPp8sYWCE
+- ⚡ Built with React 18 + TypeScript + Vite
+- 🎨 Styled with Tailwind CSS
+- ✨ Smooth animations with Framer Motion
+- 🌟 Starry background with animated elements
+- 📱 Fully responsive design
+- 🔄 Client-side routing with React Router
 
-## Run Locally
+## 📋 Prerequisites
 
-**Prerequisites:**  Node.js
+- Node.js (v16 or higher)
+- npm or yarn
 
+## 🛠️ Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   cd ppp
+   ```
+
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+
+## 💻 Development
+
+Run the development server:
+```bash
+npm run dev
+```
+
+The app will be available at `http://localhost:3000`
+
+## 🏗️ Build
+
+Build for production:
+```bash
+npm run build
+```
+
+Preview the production build:
+```bash
+npm run preview
+```
+
+## 🚀 Deployment
+
+### Vercel
+1. Push your code to GitHub
+2. Import your repository on [Vercel](https://vercel.com)
+3. Deploy (vercel.json is already configured)
+
+### Netlify
+1. Push your code to GitHub
+2. Import your repository on [Netlify](https://netlify.com)
+3. Deploy (netlify.toml is already configured)
+
+### Manual Deployment
+1. Run `npm run build`
+2. Upload the `dist` folder to your hosting provider
+
+## 📁 Project Structure
+
+```
+ppp/
+├── components/       # Reusable React components
+├── pages/           # Page components
+├── constants.ts     # Application constants
+├── types.ts         # TypeScript type definitions
+├── App.tsx          # Main app component
+├── index.tsx        # Entry point
+└── index.html       # HTML template
+```
+
+## 🛠️ Technologies
+
+- React 18
+- TypeScript
+- Vite
+- Tailwind CSS
+- Framer Motion
+- React Router DOM
+- Lucide React (icons)
+
+## 📝 License
+
+MIT License
